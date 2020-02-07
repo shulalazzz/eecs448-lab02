@@ -44,7 +44,12 @@ bool LinkedList<T>::search(T value) const
 	/** TODO
 		Fix this method
 	*/
-	for
+	for(int i=0;i<m_size;i++){
+		if(temp->getValue()==value){
+			isFound = 1;
+			break;
+		}
+	}
 
 	return(isFound);
 }
